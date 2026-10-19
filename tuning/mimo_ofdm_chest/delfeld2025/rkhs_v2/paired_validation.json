@@ -1,0 +1,60 @@
+{
+  "protocol_version": 2,
+  "metric": "weighted_nmse",
+  "ebno_dbs": [
+    -10.0,
+    -5.0,
+    0.0,
+    5.0,
+    10.0
+  ],
+  "snr_weights": [
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0
+  ],
+  "seed": 314159,
+  "num_mc_batches_per_snr": 63,
+  "batch_size": 4,
+  "raw_winner": {
+    "debias_num_iter": 18,
+    "debias_scale": 0.0001562869026638533,
+    "lambda_scale": 70.00947571361621,
+    "rank": 3,
+    "sparse_num_iter": 11,
+    "step_size": 0.5908971885314113
+  },
+  "candidates": {
+    "current": {
+      "rank": 4,
+      "sparse_num_iter": 19,
+      "debias_num_iter": 15,
+      "step_size": 1.57,
+      "lambda_scale": 58.3,
+      "debias_scale": 0.00115
+    },
+    "rounded_winner": {
+      "rank": 3,
+      "sparse_num_iter": 11,
+      "debias_num_iter": 18,
+      "step_size": 0.591,
+      "lambda_scale": 70.0,
+      "debias_scale": 0.000156
+    }
+  },
+  "objectives": {
+    "current": 0.000913108160566362,
+    "rounded_winner": 0.0010972862460708961
+  },
+  "selected": "current",
+  "selected_parameters": {
+    "rank": 4,
+    "sparse_num_iter": 19,
+    "debias_num_iter": 15,
+    "step_size": 1.57,
+    "lambda_scale": 58.3,
+    "debias_scale": 0.00115
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "results_schema_version": 1,
+  "scenario_id": "3gpp-umi",
+  "config_fingerprint": "4f774132bba964e4d31fe64a10374b020db5abd5c13a5e564b4e62bf258a4efc",
+  "results": {
+    "RKHSChannelEstimator": {
+      "file": "RKHSChannelEstimator.npz",
+      "estimator_class": "sionna.bench.mimo_ofdm_chest.papers.delfeld2025.estimator.RKHSChannelEstimator",
+      "constructor_arguments": {
+        "debias_num_iter": 15,
+        "debias_scale": 0.00115,
+        "err_var_scale": 0.00102,
+        "lambda_scale": 58.3,
+        "num_cols": 4,
+        "num_rows": 4,
+        "rank": 4,
+        "sparse_num_iter": 19,
+        "step_size": 1.57,
+        "time_avg": true
+      },
+      "assets": [],
+      "updated_at": "2026-10-10 17:29:21"
+    }
+  }
+}
